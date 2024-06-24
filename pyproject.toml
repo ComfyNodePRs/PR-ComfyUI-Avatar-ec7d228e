@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-avatar"
+description = "a comfyui plugin for image to avatar"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["Pillow==10.3.0"]
+
+[project.urls]
+Repository = "https://github.com/turkyden/ComfyUI-Avatar"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Avatar"
+Icon = ""
